@@ -8,7 +8,7 @@ edad = int(input("Introduce tu edad "))
 
 if edad < 4 :
     print("Puede entrar gratis")
-elif edad >= 4 or edad <=18 :
+elif 4 <= edad <= 18:
     print("Tienes que pagar 5€")
 else:
     print("Debe pagar 10€")
